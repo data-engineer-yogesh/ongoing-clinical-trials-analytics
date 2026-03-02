@@ -16,7 +16,7 @@ End-to-end data pipeline for ongoing clinical trials using Databricks. Ingests d
 - Automating deployments with GitHub Actions for Databricks
 
  
-  <img width="700" height="1000" alt="diagram" src="https://github.com/user-attachments/assets/418166cb-20db-4795-b4ca-66f76d9ed94e" />
+  <img width="700" height="1000" alt="diagram" src="" />
 
 
 
