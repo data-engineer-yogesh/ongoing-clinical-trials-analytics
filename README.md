@@ -16,7 +16,7 @@ End-to-end data pipeline for ongoing clinical trials using Databricks. Ingests d
 - Automating deployments with GitHub Actions for Databricks
 
  
-  <img width="700" height="1000" alt="diagram" src="" />
+  <img width="700" height="1000" alt="diagram" src="https://www.databricks.com/sites/default/files/inline-images/building-data-pipelines-with-delta-lake-120823.png" />
 
 
 
