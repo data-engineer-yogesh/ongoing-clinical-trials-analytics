@@ -1,0 +1,17 @@
+resources:
+  jobs:
+    ongoing_clinical_trials_analytics_end_job:
+      name: ongoing_clinical_trials_analytics_end_job
+      tasks:
+        - task_key: Ingestion_Bronze
+          notebook_task:
+            notebook_path: /Workspace/Users/data.engineer.yogesh@gmail.com/ongoing-clinical-trials-analytics/ongoing_clinical_trials_analytics/src/notebooks/Ingestion_Bronze
+            base_parameters:
+              catalog_name: clinical_trials_dev
+            source: WORKSPACE
+      queue:
+        enabled: true
+      parameters:
+        - name: catalog_name
+          default: clinical_trials_dev
+      performance_target: PERFORMANCE_OPTIMIZED
