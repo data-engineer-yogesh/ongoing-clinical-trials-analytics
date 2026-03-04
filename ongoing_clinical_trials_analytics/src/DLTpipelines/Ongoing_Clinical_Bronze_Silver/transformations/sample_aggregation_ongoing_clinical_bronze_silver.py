@@ -11,8 +11,9 @@ from pyspark.sql.types import *
 # This file defines a sample transformation.
 # Edit the sample below or add new transformations
 # using "+ Add" in the file browser.
-catalog_name = spark.conf.get('catalog_name')
+catalog_name = spark.conf.get("catalog_name")
 volume_path = f"/Volumes/{catalog_name}/bronze/clinical_trials_dev_data/"
+
 
 primary_key = "nctId"
 from pyspark.sql.types import *
@@ -281,7 +282,8 @@ dlt.apply_changes(
     stored_as_scd_type="1",
 )
 
-#clinical_designModule_dev_vw
+
+# clinical_designModule_dev_vw
 @dlt.table(name="clinical_designModule_dev_vw")
 def clinical_designModule_dev():
     df = (
