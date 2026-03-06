@@ -15,8 +15,9 @@ End-to-end data pipeline for ongoing clinical trials using Databricks. Ingests d
 - CI/CD Deployment – using Databricks Asset Bundles (DAB)
 - Automating deployments with GitHub Actions for Databricks
 
- 
-  <img width="700" height="1000" alt="diagram" src="https://www.databricks.com/sites/default/files/inline-images/building-data-pipelines-with-delta-lake-120823.png" />
+ <img width="1536" height="1024" alt="ChatGPT Image Mar 6, 2026 at 10_40_33 AM" src="https://github.com/user-attachments/assets/1b4c886a-4107-48db-91d9-30ac9ba42375" />
+
+  
 
 
 
